@@ -1,0 +1,161 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header,
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+main {
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.stock-card {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.stock-card:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.stock-card h3 {
+  margin-top: 0;
+}
+
+.stock-card p {
+  font-size: 16px;
+  color: #555;
+}
+
+.stock-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.stock-card a:hover {
+  text-decoration: underline;
+}
+
+.stock-details {
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.stock-details h1 {
+  color: #333;
+}
+
+.stock-details .price,
+.stock-details .historical-data,
+.stock-details .chat {
+  margin-top: 20px;
+}
+
+.stock-details ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.stock-details li {
+  padding: 5px 0;
+}
+
+.stock-details button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.stock-details button:hover {
+  background-color: #0056b3;
+}
+
+.chat-room-selection {
+  margin-bottom: 20px;
+}
+
+.chat-room-selection input,
+.chat-room-selection button {
+  padding: 10px;
+  margin-right: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.chat-messages {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  height: 300px;
+  overflow-y: auto;
+}
+
+.chat-messages p {
+  padding: 5px;
+  border-bottom: 1px solid #eee;
+}
+
+input {
+  padding: 10px;
+  margin-right: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
